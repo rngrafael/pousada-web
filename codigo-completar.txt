@@ -1,0 +1,78 @@
+<div class="container-rota marcador-container" id="rota">
+            <div class="container-subtitulo marcador">
+                <h2>ROTA</h2>
+                <p>Veja como chegar até a pousada.</p>
+            </div>
+            <div class="mapa-rota marcador" id="rota">
+                <!--aqui entra iframe-->
+            </div>
+        </div>
+    </div>
+    <div class="container-sobre marcador-container" id="sobre">
+        <div class="container-texto-sobre marcador">
+            <h2>SOBRE A POUSADA!</h2>
+            <p>Conheça um pouco sobre nossa pousada.</p>
+        </div>
+        <div class="container-descricao marcador-container">
+            <div class="item-1 marcador">
+                <div>
+                    <h3>A pousada</h3>
+                    <p>A pousa Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                </div>
+                <div>
+                    <img src="assets/img1.jpg" alt="" title="">
+                </div>
+            </div>
+            <div class="item-1 marcador">
+                <div>
+                    <h3>Nossos quartos</h3>
+                    <p>Nossoa quartos possuem TV de tela plana a cabo, 
+                        cozinha compacta e área de refeições. Além disso,
+                        as unidades da Pousada Dev contam com ar condicionado
+                        e guarda-roupa. 
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/img2.jpg" alt="" title="">
+                </div>
+            </div>
+            <div class="item-1 marcador">
+                <div>
+                    <h3>Alimentação</h3>
+                    <p>A pousada serve café da manhã em estilo
+                        continental ou buffet. Nossos restaurantes 
+                        funcionam 24 horas.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/img3.jpg" alt="" title="">
+                </div>
+            </div>
+            <div class="item-1 marcador">
+                <div>
+                    <h3>Recepção</h3>
+                    <p>Nossa recepção fica aberta 24 horas.</p>
+                </div>
+                <div>
+                    <img src="assets/img5.jpg" alt="" title="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rodape marcador-container" id="contato">
+        <div class="canais-comunicacao">
+            <div><h3>Entre em contato conosco:</h3></div>
+            <div>
+                <a href="">Endereço Av. 123, 222 - Rio de Janeiro RJ</a>
+            </div>
+            <div>
+                <p>Cel: 5521000000000</p>
+            </div>
+            <div>
+                <a href="">Faça sua reserva pelo Booking.com</a>
+            </div>
+        </div>
+
+	 <div>
+            <p>&copy;Copyright-PousadaDev</p>
+        </div>
