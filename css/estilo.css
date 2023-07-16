@@ -5,6 +5,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .marcador-container{
     border: 1px solid red;
 }
@@ -36,15 +40,21 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 16px 28px 16px 6px;
-   
 }
 
+.texto-logo{
+    margin-left: 190px;
+}
 
+.navegacao{
+    margin-right: 160px;
+}
 
 .navegacao a, .texto-logo a{
     text-decoration: none;
     
 }
+
 
 .texto-logo a{
     font-size: 20px;
@@ -56,7 +66,7 @@
 
 .navegacao a{
     font-size: 16px;
-    margin-left: 20px;
+    margin-left: 24px;
     color: #B6BCC6;
 }
 
@@ -102,7 +112,7 @@
 .container-apresentacao-pousada{
     width: 100vw;
     height: 100vh;
-    padding: 20px 0;
+    margin: 0;
 }
 
 .container-apresentacao-pousada .container-texto-apresentacao{
@@ -112,15 +122,58 @@
     text-align: center;
 }
 
-.container-apresentacao-pousada .container-imagem{
-    width: calc(100% - 10px);
+.container-apresentacao-pousada .imagens{
+    width: calc(70% - 10px);
     padding: 10px;
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-imagem .img-1, .container-imagem .img-2, .container-imagem .img-3{
-    width: calc(100% / 3);
+
+.container-texto-apresentacao{
+    width: 100%;
+    margin: 0;
+}
+
+/*área imagem principal*/
+.container-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.img-1, .img-2, .img-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   margin: 0 10px;
+   width: calc(100% - 20px);
+   border-bottom: 2px solid #3CB371	;
+}
+
+.img-1 img:first-child, .img-2 img:first-child, .img-3 img:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+}
+
+.img-1 a, .img-2 a, .img-3 a{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
 }
